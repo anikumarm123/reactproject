@@ -1,0 +1,195 @@
+.login{
+  text-align: center;
+  padding: 0px 10vh;
+}
+.loginBox{
+  margin: 10px auto;
+   border: 1px solid #808080;
+   width: 30vw;
+   height: 65vh;
+   text-align: center;
+
+}
+.loginBox svg{
+  padding-top: 4vh;
+   font-size: 9vh;
+   color:  #fb9d10;
+}
+.ip{
+  line-height: 13vh;
+}
+.loginBox #ip-1{
+  width: 20vw;
+}
+.loginBox #ip-2{
+  width: 20vw;
+}
+.loginBox button{
+  width: 8vw;
+  height: 3vw;
+  background-color: #f8c239;
+  color: black;
+}
+.login img{
+  width: 25vw;
+}
+/* --------------------- NavBar section ----------------------------- */
+.navFlx{
+  display: flex;
+  height: 14vh;
+  justify-content: space-between;
+  background-color:#201c1c;
+  color: aliceblue;
+}
+.logo img{
+    width: 16vw;
+    height: 14vh;
+}
+.searchBar{
+  display: flex;
+  height:5.9vh ;
+  margin-top: 24px;
+}
+.searchBar:hover{
+  border: 1px solid #f8c239;
+}
+.searchip input{
+  height: 5vh;
+  width: 35vw;
+}
+.search{
+  text-align: center;
+  height:5.8vh;
+  width: 4vw;
+  background-color:#f8c239;
+}
+.search svg{
+  font-size: 2.2vw;
+  color: #201c1c;
+}
+.navRight{
+  display:flex;
+}
+.icons{
+  border: 2px solid #201c1c;
+  margin: 20px 20px 0px 0px;
+  width: 5vw;
+  height: 7vh;
+  text-align: center;
+  padding: 5px;
+ 
+}
+.icons:hover{
+  border: 2px solid;
+  color: #f8c239;
+  
+}
+.icons svg{
+  font-size: 2vw;
+}
+.place{
+  margin-right: 50px;
+  margin-top: 24px;
+  width: 5vw;
+}
+.place svg{
+  color: #f8c239;
+  font-size: 2.5vw;
+}
+.subnav{
+  background-color:#3c3c3c;
+  height: 5vh;
+  text-align: end;
+}
+.subnav a{
+  color:white;
+  text-decoration: none;
+  padding-right: 20px;
+  font-size: 1.5vw;
+}
+.subnav a:hover{
+  color: #f8c239;
+  text-decoration:underline;
+}
+ /* ---------------------- Home Page-----------------------------  */
+
+.listItem{
+  background-image: url('./images/background.jpg');
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-size:100%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-color: #ff7200;
+}
+.eachItem{
+  width: 25vw;
+  margin:1vw;
+  position:relative;
+  top:35vh;
+}
+.eachItem img{
+  padding: 3vh 0px 0px 4vw;
+  width: 16vw;
+  height: 34vh;
+  background-size: contain;
+}
+.homeIcon svg:hover{
+   
+   color: #f69606;
+}
+/* ----------------- favorite Item --------------------- */
+
+.favItem{
+  background-image: url('./images/background.jpg');
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-size:100%;
+  background-repeat: no-repeat;
+  background-color: #f49303;
+  
+}
+.eachfavItem{
+  width: 25vw;
+  margin:1vw;
+  margin-top: 30vh;
+  
+}
+.eachfavItem img{
+
+  padding: 3vh 0px 0px 4vw;
+  width: 16vw;
+  height: 34vh;
+  background-size: contain;
+}
+/* ------------------------- CartItem ------------------- */
+.cartItem{
+  background-image: url('./images/background.jpg');
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-size:100%;
+  background-repeat: no-repeat;
+  background-color: #f49303;
+}
+.carteachItem{
+  width: 25vw;
+  margin:1vw;
+  margin-top: 30vh;
+  
+}
+.carteachItem img{
+  padding: 3vh 0px 0px 4vw;
+  width: 16vw;
+  height: 34vh;
+  background-size: contain;
+}
+.removeIcon svg{
+  padding-left: 5vw;
+  font-size: 2.3vw;
+}
+.removeIcon svg:hover{
+  color:#f49303;
+}
